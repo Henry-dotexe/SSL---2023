@@ -1,10 +1,12 @@
-#define LOWER_F 0 /* límite inferior de fahr*/
-#define UPPER_F 300 /* límite superior de fahr*/
-#define STEP_F 20 /*incremento de fahr*/
+const int LOWER_F = 0; /* límite inferior de fahr*/
+const int UPPER_F = 300; /* límite superior de fahr*/
+const int STEP_F = 20; /*incremento de fahr*/
 
-#define LOWER_C -10 /*límite inferior de celsius*/
-#define UPPER_C 150 /*límite superior de celsius*/
-#define STEP_C 10 /*incremento de celsius*/
+const int LOWER_C = -10; /*límite inferior de celsius*/
+const int UPPER_C = 150; /*límite superior de celsius*/
+const int STEP_C = 10; /*incremento de celsius*/
+
+//Se definen las variables globales como constantes según restricción de la consigna.
 
 float fahr(float celsius);
 float celsius(float farh);

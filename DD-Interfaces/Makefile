@@ -11,3 +11,8 @@ conversionTest: conversion.o
 
 tests: conversionTest
 	./conversionTest
+
+clean:
+	rm .\conversionTest.exe
+	rm .\tablasConversion.exe
+	rm .\conversion.o
